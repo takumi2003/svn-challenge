@@ -1,6 +1,5 @@
 # svn-challenge
-svnの基本的使い方を試せるコマンド作成中
-現在checkout完成
+svnの基本的使い方を試せるコマンド
 
 # 使い方
 
@@ -20,3 +19,5 @@ svnの基本的使い方を試せるコマンド作成中
 # コマンド
 `test-command -checkout`
 svnのcheckoutを体験できます。
+`test-command -commit`
+svnのcommitを体験できます。
