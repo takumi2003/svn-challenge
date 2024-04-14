@@ -1,2 +1,32 @@
 #!/bin/sh
-echo 'HelloWorld'
+case $1 in
+    "-checkout")
+    echo '\nこんにちは!\n
+        今回はプロジェクト演習で使用するsvnの基本的な使い方をマスターしましょう!\n
+        Enterを押して次に進んでください!\n'
+    read -p ""
+    echo "まずは自分のところで作業できるようにリポジトリからディレクトリを取得しましょう!\n
+        取得のためにはcheckoutコマンドを使います!\n
+        svn checkout http://bluetree.kyoto-su.ac.jp/repositories/PP/G4\n
+        ターミナルを別で開いて実行完了したらEnterを押してください!\n"
+    read -p ""
+    if [ -d "G4" ]; then
+    echo "リポジトリからディレクトリを取得しました！\n
+            これでリポジトリからディレクトリを取得できるようになりました！
+            次にcommitを体験してみましょう!\n
+            test-command -commit \n
+            を実行してください!"
+    else
+    echo "リポジトリからディレクトリを取得できませんでした！\n
+            エラーが発生している可能性があります！\n
+            もう一度やり直してください！"
+    exit 1
+    fi
+    ;;
+ *)
+    echo "無効なオプションです。"
+    exit 1
+    ;;
+esac
+
+
