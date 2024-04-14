@@ -18,6 +18,6 @@ svnの基本的使い方を試せるコマンド
 
 # コマンド
 `test-command -checkout`
-svnのcheckoutを体験できます。
+svnのcheckoutを体験できます。  
 `test-command -commit`
 svnのcommitを体験できます。
