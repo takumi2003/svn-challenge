@@ -21,3 +21,5 @@ svnの基本的使い方を試せるコマンド
 svnのcheckoutを体験できます。  
 `test-command -commit`
 svnのcommitを体験できます。
+`test-command -help`
+helpの参照
