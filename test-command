@@ -62,6 +62,12 @@ case $1 in
           お疲れ様でした!\n"
 
     ;;
+
+"-help")
+    echo "-commit: commitの体験をします。\n
+          -checkout: checkoutの体験をします。\n
+          https://subversion.apache.org/docs/ を参考にしてください！\n"
+    ;;
 *)
     echo "無効なオプションです。"
     exit 1
