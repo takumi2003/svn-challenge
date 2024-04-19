@@ -6,7 +6,8 @@ svnの基本的使い方を試せるコマンド
 `cd ~`  
 `mkdir command`  
 `cd command`  
-`git clone https://github.com/takumi2003/svn-challenge.git`
+`git clone https://github.com/takumi2003/svn-challenge.git`  
+
 その後
 
 `echo $SHELL`
