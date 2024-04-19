@@ -34,9 +34,11 @@ case $1 in
     echo "次にG4ディレクトリ内にファイルを作成しましょう。\n
           作成するファイル名は「test.txt」とします。\n"
     read -p ""
-    echo "作業が完了したら以下のコマンドを実行してください。\n
+    echo "作業が完了したら以下のコマンドを実行してください。\
+            svn add test.txt\n
             svn commit -m 'test commit'\n
-            このtest commitはコミットメッセージです。実際には作業した内容など適宜変更してください!\n"
+            add test.txtはcommitの対象にtest.txtを追加します。\n
+            'test commit'はコミットメッセージです。他の人に自分が何の作業をしたか伝えるために記述します。適宜変更してください!\n"
     read -p ""
     echo "これでcommitが完了しました!\n
           他のメンバーが作業を行った場合は、先ほどのupdateコマンドを実行して最新版を取得しましょう!\n"
