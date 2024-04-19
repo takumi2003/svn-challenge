@@ -45,7 +45,7 @@ case $1 in
         一度先ほど作成したtext.txtを削除した後に以下のコマンドを実行してください!\n
           svn update\n"
     read -p ""
-    if [ -f "test.txt" ]; then
+    if [ -f "G4/test.txt" ]; then
         echo "無事updateにより先ほど削除したtest.txtが取得されました!"
     else
         echo "updateにエラーが発生しました!\n
