@@ -2,10 +2,10 @@
 svnの基本的使い方を試せるコマンド
 
 # 使い方
-ターミナルの***ルートディレクトリ直下にcommandディレクトリを作成しその内部で実行してファイルを取得してください。***  
-`cd ~`
-`mkdir command`
-`cd command`
+ターミナルの***ルートディレクトリ直下にcommandディレクトリを作成しその内部で実行してファイルを取得してください。***    
+`cd ~`  
+`mkdir command`  
+`cd command`  
 `git clone https://github.com/takumi2003/svn-challenge.git`
 その後
 
